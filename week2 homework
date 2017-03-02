@@ -11,3 +11,33 @@ int main(){
 }
 
 //2.請寫一個程式印出九九乘法表。
+#include <stdio.h>
+
+int main(){
+	int a,b,s;
+	for (a=1;a<=9;a++){
+		for (b=1;b<=9;b++){
+			s = a * b;
+			printf("%d*%d=%d\n", a, b, s);
+		}
+		printf("\n");
+	}
+	
+}
+
+//3.請檢查某數是否為質數？ 範例： isPrime(17) => true
+#include <stdio.h>
+
+int main(){
+	int x,y;
+
+	printf("key in a numble :\n");
+	scanf("%d", x); 
+
+	for (y=x;y>=2;y--){
+	
+	if (x % y != 1)
+
+	}	
+	
+}
